@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamApp.GreetPage"
+             Padding="0,20,0,0">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" 
+                    iOS="0,20,0,0" Android="0,0,0,0">
+            </OnPlatform>
+    </ContentPage.Padding>
+    <StackLayout BindingContext="{x:Reference bindedSlider}" 
+                 HorizontalOptions="Center" 
+                 VerticalOptions="Center">
+        <BoxView Color="Green" Opacity="{Binding Value}"></BoxView>
+        <Label  Text ="Hello World" x:Name="label"></Label>
+        <Slider ValueChanged="Slider_OnValueChanged" x:Name="slider" ></Slider>
+        <Label BindingContext="{x:Reference bindedSlider}" 
+            Text ="{Binding Value, 
+            StringFormat='Value is {0:F2}'}" 
+            Opacity="{Binding Value}"
+            x:Name="bindedLabel">
+                 
+        </Label>
+        <Slider x:Name="bindedSlider" ></Slider>
+    </StackLayout>
+             
+</ContentPage>
