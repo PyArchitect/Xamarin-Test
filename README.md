@@ -6,7 +6,7 @@ Example of StackLayoutExercise
 
 <a href="url"><img src="https://github.com/PyArchitect/Xamarin-Test/blob/master/XamarinApp.png?raw=true" align="left" height="768" width="432" ></a>
 
-Example of StackLayoutExercise2
+<p>Example of StackLayoutExercise2</p>
 <a href="url"><img src="https://github.com/PyArchitect/Xamarin-Test/blob/master/XamarinApp2.png?raw=true" align="left" height="768" width="432" ></a>
 
 
