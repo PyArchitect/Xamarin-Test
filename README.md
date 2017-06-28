@@ -9,10 +9,7 @@ Example of StackLayoutExercise
 
 <p>Example of StackLayoutExercise2</p>
 TEXT
-
-<p align="center">
-<a href="url"><img src="https://github.com/PyArchitect/Xamarin-Test/blob/master/XamarinApp2.png?raw=true" align="left" height="768" width="432" ></a>
-</p>
+<h2>Header</h2>
 
 
 
