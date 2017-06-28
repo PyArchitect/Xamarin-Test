@@ -8,5 +8,5 @@ Example of StackLayoutExercise
 	
 Example of StackLayoutExercise2
 
-<a href="url"><img src="https://github.com/PyArchitect/Xamarin-Test/blob/master/XamarinApp.png2?raw=true" align="left" height="768" width="432" ></a>
+<a href="url"><img src="https://github.com/PyArchitect/Xamarin-Test/blob/master/XamarinApp2.png?raw=true" align="left" height="768" width="432" ></a>
 	
