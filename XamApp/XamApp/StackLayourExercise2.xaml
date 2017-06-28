@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamApp.StackLayourExercise2">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" 
+                    iOS="0,20,0,0" Android="0,0,0,0">
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <StackLayout Padding="10,9,0,9">
+                <Label FontSize="16"  Text="nyc_photographer" HorizontalOptions="Start" TextColor="Black" />
+            </StackLayout>
+            
+            <Image Source="http://lorempixel.com/1920/1080/nature/3/"/>
+            <StackLayout Orientation="Horizontal" Padding="10,8,0,8" Spacing="14">
+                <Label FontSize="16" Text="Like" HorizontalOptions="Start" TextColor="#127ac7" />
+                <Label FontSize="16" Text="Comment" HorizontalOptions="Start" TextColor="#127ac7" />
+                <Label FontSize="16" Text="Share" HorizontalOptions="Start" TextColor="#127ac7"/>
+            </StackLayout>
+            
+            <StackLayout Padding="10,2,0,0" >
+                <BoxView Color="#f0f0f0" HeightRequest="1"/>
+                <Label FontSize="16" FontAttributes="Bold" Text="700 likes" HorizontalOptions="Start" TextColor="Black"/>
+                <Label FontSize="16" Text="This is a shot yesterday in Skanor, Sweden, when driving home, from a couple of days of work in Denmark" 
+                       HorizontalOptions="Start" />
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+    <!--left top right bottom-->
