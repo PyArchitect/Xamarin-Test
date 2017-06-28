@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamApp.StackPage"
+             Padding="0,20,0,0">
+             <!--<StackLayout  
+                         Padding="40"
+                       
+                         Orientation="Horizontal"
+                         BackgroundColor="White" 
+                         VerticalOptions="Center" 
+                         HorizontalOptions="Center"
+
+                         Spacing="0">
+                  <Label Text="Label 1" BackgroundColor="LightBlue"/>
+                  <Label Text="Label 2" BackgroundColor="LightBlue"/>
+                  <Label Text="Label 3" BackgroundColor="LightBlue"/>
+            </StackLayout>-->  
+</ContentPage>
+
+<!--Padding is the amount of space between layout and it's children Left, Top, Right, Bottom Spacing set to 0 if we want no space between out elements. Default value = 6 units-->

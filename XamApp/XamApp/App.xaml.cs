@@ -13,7 +13,7 @@ namespace XamApp
         {
             InitializeComponent();
 
-            MainPage = new QuotesPage();
+            MainPage = new StackLayourExercise();
         }
 
         protected override void OnStart()
